@@ -44,7 +44,7 @@ This RAG system implements a sophisticated retrieval and generation pipeline:
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd ruptura-rag
+cd simple-rag
 
 # Install dependencies
 npm install --legacy-peer-deps
