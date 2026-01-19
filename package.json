@@ -1,0 +1,34 @@
+{
+  "name": "simple-rag",
+  "version": "1.0.0",
+  "description": "This project is a simple chatbot that uses the RAG (Retrieval-Augmented Generation) pattern to answer questions based on a provided PDF document.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^25.0.9",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/swagger-ui-express": "^4.1.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@langchain/classic": "^1.0.9",
+    "@langchain/community": "^1.1.4",
+    "@langchain/core": "^1.1.15",
+    "@langchain/openai": "^1.2.2",
+    "@langchain/textsplitters": "^1.0.1",
+    "@xenova/transformers": "^2.17.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "multer": "^2.0.2",
+    "pdf-parse": "^2.4.5",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
