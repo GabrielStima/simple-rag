@@ -6,8 +6,12 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "start:chroma": "docker-compose up -d",
-    "stop:chroma": "docker-compose down"
+    "dev": "npm run services:start && npm run build && npm start",
+    "services:start": "docker-compose up -d",
+    "services:stop": "docker-compose down",
+    "services:logs": "docker-compose logs -f",
+    "ollama:pull": "docker exec ollama ollama pull llama3.2:3b",
+    "ollama:list": "docker exec ollama ollama list"
   },
   "keywords": [],
   "author": "",
