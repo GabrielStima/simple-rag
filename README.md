@@ -88,6 +88,7 @@ services:
       - "11434:11434"
     volumes:
       - ollama_data:/root/.ollama (384 dimensions, fast)
+```
 
 ### Retrieval Parameters
 - **Chunk Size:** 800 characters
@@ -96,7 +97,6 @@ services:
 - **Reranking:** Top 10 candidates
 - **Final Context:** Top 5 documents
 - **Similarity Threshold:** < 0.6 (lower is better)
-```
 
 Interactive API documentation available at:
 ```
